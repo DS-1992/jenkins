@@ -13,6 +13,8 @@ import com.onbuy.pom.ManageProductPage;
 
 public class ProductTest extends BaseClass {
 
+	//Dharmendra Saraswat
+
 	@Test
 	public void Producttest() throws Throwable {
 	
@@ -49,6 +51,6 @@ public class ProductTest extends BaseClass {
 		mp.manageProduct(driver, wlib, SearchProductName, UpdateProductAvail);
 		
 		hp.logoutfromapp();
-		
+		//Successfully Pass the testcases
 	}
 }
