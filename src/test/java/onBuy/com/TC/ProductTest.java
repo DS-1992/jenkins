@@ -51,6 +51,6 @@ public class ProductTest extends BaseClass {
 		mp.manageProduct(driver, wlib, SearchProductName, UpdateProductAvail);
 		
 		hp.logoutfromapp();
-		//Successfully Pass the testcases
+		
 	}
 }
