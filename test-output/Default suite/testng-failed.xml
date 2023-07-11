@@ -3,18 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="onBuy.com.TC.DeleteSubCategoryTest">
+      <class name="onBuy.com.TC.ProductTest">
         <methods>
           <include name="connectDB"/>
           <include name="closeBrowser"/>
-          <include name="DeleteSubcategorytest"/>
           <include name="logintoapp"/>
-          <include name="checkinUserModule"/>
           <include name="logoutfromapp"/>
           <include name="launchBrowser"/>
+          <include name="Producttest"/>
           <include name="closeDB"/>
         </methods>
-      </class> <!-- onBuy.com.TC.DeleteSubCategoryTest -->
+      </class> <!-- onBuy.com.TC.ProductTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

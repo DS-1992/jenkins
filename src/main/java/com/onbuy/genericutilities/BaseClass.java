@@ -46,10 +46,10 @@ public class BaseClass {
 		WebDriverManager.chromedriver().setup();
 		envfilepath = flib.getFilePathFromPropertiesFile("projectConfigDataFilePath");
 
-		//String Browser = flib.getDataFromProperties(envfilepath, "browser");
-		//String AURL = flib.getDataFromProperties(envfilepath, "Adminurl");
-		String Browser=System.getProperty("browser");
-		String AURL=System.getProperty("Adminurl");
+		String Browser = flib.getDataFromProperties(envfilepath, "browser");
+		String AURL = flib.getDataFromProperties(envfilepath, "Adminurl");
+		//String Browser=System.getProperty("browser");
+		//String AURL=System.getProperty("Adminurl");
 		if(Browser.equalsIgnoreCase("Chrome"))
 		{
 			driver=new ChromeDriver();
