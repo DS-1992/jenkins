@@ -1,0 +1,7 @@
+Browser Chrome
+AdminUrl http://rmgtestingserver/domain/Online_Shopping_Application/admin/
+AdminUsername admin
+AdminPassword Test@123
+UserUrl http://rmgtestingserver/domain/Online_Shopping_Application/
+UserUsername anuj.lpu1@gmail.com
+UserPassword Test@123
