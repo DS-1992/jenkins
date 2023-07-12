@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-11T14:47:49 IST" name="Default suite" finished-at="2023-07-11T14:48:04 IST" duration-ms="14353">
+  <suite started-at="2023-07-12T17:43:08 IST" name="Default suite" finished-at="2023-07-12T17:43:19 IST" duration-ms="10715">
     <groups>
     </groups>
-    <test started-at="2023-07-11T14:47:49 IST" name="Default test" finished-at="2023-07-11T14:48:04 IST" duration-ms="14353">
+    <test started-at="2023-07-12T17:43:08 IST" name="Default test" finished-at="2023-07-12T17:43:19 IST" duration-ms="10715">
       <class name="onBuy.com.TC.DeleteSubCategoryTest">
-        <test-method is-config="true" signature="connectDB()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:47:49 IST" name="connectDB" finished-at="2023-07-11T14:47:49 IST" duration-ms="379" status="PASS">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:08 IST" name="connectDB" finished-at="2023-07-12T17:43:08 IST" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDB -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:47:49 IST" name="launchBrowser" finished-at="2023-07-11T14:47:53 IST" duration-ms="3900" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:08 IST" name="launchBrowser" finished-at="2023-07-12T17:43:12 IST" duration-ms="3646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoapp()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:47:53 IST" name="logintoapp" finished-at="2023-07-11T14:47:54 IST" duration-ms="819" status="PASS">
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:12 IST" name="logintoapp" finished-at="2023-07-12T17:43:12 IST" duration-ms="728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoapp -->
-        <test-method signature="DeleteSubcategorytest()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:47:54 IST" name="DeleteSubcategorytest" finished-at="2023-07-11T14:47:57 IST" duration-ms="2751" status="PASS">
+        <test-method signature="DeleteSubcategorytest()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:12 IST" name="DeleteSubcategorytest" finished-at="2023-07-12T17:43:15 IST" duration-ms="2766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteSubcategorytest -->
-        <test-method is-config="true" signature="logoutfromapp()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:47:57 IST" name="logoutfromapp" finished-at="2023-07-11T14:47:57 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="logoutfromapp()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:15 IST" name="logoutfromapp" finished-at="2023-07-12T17:43:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutfromapp -->
-        <test-method is-config="true" signature="logintoapp()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:47:57 IST" name="logintoapp" finished-at="2023-07-11T14:47:57 IST" duration-ms="430" status="PASS">
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:15 IST" name="logintoapp" finished-at="2023-07-12T17:43:16 IST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoapp -->
-        <test-method signature="checkinUserModule()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:47:57 IST" name="checkinUserModule" finished-at="2023-07-11T14:48:03 IST" duration-ms="5982" status="PASS">
+        <test-method signature="checkinUserModule()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:16 IST" name="checkinUserModule" finished-at="2023-07-12T17:43:18 IST" duration-ms="2688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkinUserModule -->
-        <test-method is-config="true" signature="logoutfromapp()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:48:03 IST" name="logoutfromapp" finished-at="2023-07-11T14:48:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logoutfromapp()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:18 IST" name="logoutfromapp" finished-at="2023-07-12T17:43:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutfromapp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:48:03 IST" name="closeBrowser" finished-at="2023-07-11T14:48:04 IST" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:18 IST" name="closeBrowser" finished-at="2023-07-12T17:43:19 IST" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDB()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@7f0eb4b4]" started-at="2023-07-11T14:48:04 IST" name="closeDB" finished-at="2023-07-11T14:48:04 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:onBuy.com.TC.DeleteSubCategoryTest@59662a0b]" started-at="2023-07-12T17:43:19 IST" name="closeDB" finished-at="2023-07-12T17:43:19 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDB -->
