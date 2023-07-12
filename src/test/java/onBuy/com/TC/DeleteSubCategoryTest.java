@@ -85,9 +85,11 @@ public class DeleteSubCategoryTest extends BaseClass {
 		driver.findElement(By.name("email")).sendKeys(Userusername);
 		driver.findElement(By.name("password")).sendKeys(Userpassword);
 		driver.findElement(By.xpath("//button[text()='Login']")).click();
+		
+		driver.findElement(By.xpath("//a[text()='Home'][1]")).click();
 
 		//click on the specified category section 
-		driver.findElement(By.xpath("//a[text()=' Books']")).click();
+		driver.findElement(By.xpath("//a[contains(.,'Books')][1]")).click();
 
 		//check the sub category section that specified sub-category is deleted or not
 		List<WebElement> wes = driver.findElements(By.xpath("//li[@class='dropdown menu-item']"));
