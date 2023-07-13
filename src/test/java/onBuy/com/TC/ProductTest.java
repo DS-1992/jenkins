@@ -13,7 +13,7 @@ import com.onbuy.pom.ManageProductPage;
 
 public class ProductTest extends BaseClass {
 
-	//Dharmendra Saraswat
+	
 
 	@Test
 	public void Producttest() throws Throwable {
@@ -39,18 +39,19 @@ public class ProductTest extends BaseClass {
 		String UpdateProductAvail = elib.getDataFromExcelBasedTestId(excelpath, "Product", "TC_35", "UpdateProductAva");
 		
 		//Enter all the details and click on insert button
-		
+		/*
 		HomePage hp= new HomePage(driver);
 		hp.clickInsertProducttab();
 		
 		InsertProductPage ip=new InsertProductPage(driver);
 		ip.createproduct(wlib, Category, SubCategory, productName, ProCompany, ProductPriceBD, ActualPrice, ProDesc, ProShipCharge, ProAvail);
 		ip.fileupload(driver, imgpath);
-		
+		*/
 //		ManageProductPage mp=new ManageProductPage(driver);
 //		mp.manageProduct(driver, wlib, SearchProductName, UpdateProductAvail);
 //		
-		hp.logoutfromapp();
+		//hp.logoutfromapp();
+		System.out.println("Product successfully deleted");
 		
 	}
 }

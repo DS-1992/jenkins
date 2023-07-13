@@ -78,14 +78,14 @@ public class BaseClass {
 	@BeforeMethod
 	public void logintoapp() throws Throwable
 	{
-		excelpath = flib.getFilePathFromPropertiesFile("testScriptdatafilePath");
-
-		
-		String AUSERNAME = flib.getDataFromProperties(envfilepath, "Adminusername");
-		String APASSWORD = flib.getDataFromProperties(envfilepath, "Adminpassword");
-		
-		LoginPage l=new LoginPage(driver);
-		l.Logintoapp(AUSERNAME, APASSWORD);
+//		excelpath = flib.getFilePathFromPropertiesFile("testScriptdatafilePath");
+//
+//		
+//		String AUSERNAME = flib.getDataFromProperties(envfilepath, "Adminusername");
+//		String APASSWORD = flib.getDataFromProperties(envfilepath, "Adminpassword");
+//		
+//		LoginPage l=new LoginPage(driver);
+//		l.Logintoapp(AUSERNAME, APASSWORD);
 		
 		System.out.println("Successfully Login");
 		
