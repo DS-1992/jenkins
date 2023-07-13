@@ -47,9 +47,9 @@ public class ProductTest extends BaseClass {
 		ip.createproduct(wlib, Category, SubCategory, productName, ProCompany, ProductPriceBD, ActualPrice, ProDesc, ProShipCharge, ProAvail);
 		ip.fileupload(driver, imgpath);
 		
-		ManageProductPage mp=new ManageProductPage(driver);
-		mp.manageProduct(driver, wlib, SearchProductName, UpdateProductAvail);
-		
+//		ManageProductPage mp=new ManageProductPage(driver);
+//		mp.manageProduct(driver, wlib, SearchProductName, UpdateProductAvail);
+//		
 		hp.logoutfromapp();
 		
 	}

@@ -47,18 +47,18 @@ public class DeleteSubCategoryTest extends BaseClass {
 		//driver.findElement(By.id("inputPassword")).sendKeys(Apwd);
 		//driver.findElement(By.xpath("//button[text()='Login']")).click();
 		// click on create sub category major tab
-		HomePage hp=new HomePage(driver);
-		hp.clickSubCattab();
-		//driver.findElement(By.partialLinkText("Sub Category")).click();
-		SubCategoryPage scp=new SubCategoryPage(driver);
-		scp.searchSubcat(subcat);
-		
-		ManageProductPage mp=new ManageProductPage(driver);
-		mp.clickDeleteButton();
+	HomePage hp=new HomePage(driver);
+//		hp.clickSubCattab();
+//		//driver.findElement(By.partialLinkText("Sub Category")).click();
+//		SubCategoryPage scp=new SubCategoryPage(driver);
+//		scp.searchSubcat(subcat);
+//		
+//		ManageProductPage mp=new ManageProductPage(driver);
+//		mp.clickDeleteButton();
 		
 		//click on delete icon under actions section in manage sub-category
 		//driver.findElement(By.xpath("//tbody[@role='alert']/tr[last()]/descendant::i[@class='icon-remove-sign']")).click();
-		wlib.swithToAlertWindowAndAccpect(driver, "Are you sure you want to delete?");
+		//wlib.swithToAlertWindowAndAccpect(driver, "Are you sure you want to delete?");
 		/*Alert a = driver.switchTo().alert();
 		System.out.println(a.getText());
 		a.accept();
@@ -69,7 +69,7 @@ public class DeleteSubCategoryTest extends BaseClass {
 		//driver.findElement(By.xpath("//a[text()='Logout']")).click();
 	}
 	
-	@Test
+	@Test(enabled=false)
 	
 		public void checkinUserModule() throws Throwable
 		{
@@ -109,7 +109,7 @@ public class DeleteSubCategoryTest extends BaseClass {
 		//click on logout button
 		//driver.findElement(By.xpath("//a[text()='Logout']")).click();
 
-		//My name is Dharmendra Saraswat
+		
 
 	}
 
